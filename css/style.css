@@ -8,9 +8,9 @@ a {
 }
 p {
     font-family: 'Inter', sans-serif;
-    width: 240px;
     font-size: 14px;
     color: #7a7a7a;
+    line-height: 1.7em;
 }
 button {
     font-family: 'Inter', sans-serif;
@@ -19,9 +19,18 @@ button {
     color: #fff;
     border-radius: 5px;
     padding: 12px 20px;
+    font-size: 14px;
 }
 button:hover {
     cursor: pointer;
     background: #de1c1c;
+}
+
+h2 {
+    color: #333;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    line-height: 2em;
 }
 
