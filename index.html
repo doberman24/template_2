@@ -14,21 +14,21 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="nav_menu">
             <div class="main_logo">
                 <a href="index.html">Архитек.</a>
             </div>
             <div class="main_nav">
                 <a href="index.html">Главная</a>
-                <div class="top_menu">
-                    <a href="#">Элементы</a>
-                    <div class="sub_menu">
+                <div id="top-menu" class="top_menu">
+                    <a id="a-top" href="#">Элементы</a>
+                    <div id="sub-menu" class="sub_menu">
                         <a href="#">Портфолио</a>
                         <a href="#">Блог</a>
                         <a href="#">Контакты</a>
-                        <div class="about_menu">
-                            <a href="#">О нас</a>
-                            <div class="about_sub_menu">
+                        <div id="about-menu" class="about_menu">
+                            <a id="a-about" href="#">О нас</a>
+                            <div id="about-sub-menu" class="about_sub_menu">
                                 <a href="#">Где мы</a>
                                 <a href="#">Кто мы</a>
                             </div>
@@ -46,7 +46,7 @@
     </header>
     <main>
         <div class="face">
-            <div class="slider_face">
+            <div class="start slider_face">
                 <div class="vision">
                     <div class="face_head">
                         <h1>Мы построим вам <i>дом мечты</i></h1>
@@ -63,10 +63,15 @@
                         <p>Небольшая река под названием Дюден протекает рядом с их местом и снабжает его необходимой регелиалией.</p>
                         <button class="get_start">Начать</button>
                     </div>
+                    <div class="face_head">
+                        <h1>Мы построим вам <i>дом мечты</i></h1>
+                        <p>Далеко-далеко, за горами слова, вдали от стран Вокалии и Консонантии, живут слепые тексты.</p>
+                        <button class="get_start">Начать</button>
+                    </div>
                 </div>
             </div>
-            <div class="face_pic">
-                <div class="slide_but">
+            <div id="landscape_face" class="face_pic">
+                <div id="slide_but" class="slide_but">
                     <p>След</p>
                     <p>Пред</p>
                 </div>
@@ -74,37 +79,37 @@
         </div>
         <div class="main_services">
             <div class="serv_list">
-                <div class="begin_serv">
+                <div class="start begin_serv">
                     <h2>Наши сервисы</h2>
                     <p>И Алиса стала вспоминать всех своих подружек, чтобы понять, не превратилась ли она в одну из них.</p>
                     <button class="get_start">Начать</button>
                 </div>
-                <div class="serv schematic_design">
+                <div class="start serv schematic_design">
                     <img src="img/icons/icon-1.png" width="45px" alt="design">
                     <h3>Схематичный дизайн</h3>
                     <p>Алиса сообразила, отчего это происходит. Дело, конечно, было в веере Кролика, который она держала в руке.</p>
                 </div>
-                <div class="serv bidding">
+                <div id="start_1" class="serv bidding">
                     <img src="img/icons/icon-2.png" width="45px" alt="design">
                     <h3>Наши предолжения</h3>
                     <p>Нет, я и тут что-то напутала! — воскликнула Алиса, и у неё на глаза навернулись слёзы.</p>
                 </div>
-                <div class="serv construction">
+                <div id="start_2" class="serv construction">
                     <img src="img/icons/icon-3.png" width="45px" alt="design">
                     <h3>Конструкции</h3>
                     <p>«Сколько же у них парниковых рам? — задумалась Алиса. — Интересно, что дальше будет?</p>
                 </div>
-                <div class="serv building">
+                <div id="hidden" class="serv building hidden">
                     <img src="img/icons/icon-4.png" width="45px" alt="design">
                     <h3>Строительство</h3>
                     <p>«Может быть, он не хрюкал, а хныкал», — подумала Алиса и снова взглянула на него, чтобы узнать, мокрые ли у него глаза.</p>
                 </div>
-                <div class="serv experts">
+                <div id="hidden" class="serv experts hidden">
                     <img src="img/icons/icon-5.png" width="45px" alt="design">
                     <h3>Архитекторы</h3>
                     <p>«А вдруг Заяц начнёт беситься и буйствовать! — с опаской думала она. — Уж лучше бы мне было пойти к Шляпнику».</p>
                 </div>
-                <div class="serv administration">
+                <div id="hidden" class="serv administration hidden">
                     <img src="img/icons/icon-6.png" width="45px" alt="design">
                     <h3>Администрация</h3>
                     <p>«Как странно! — подумала Алиса. — Никогда не видела деревьев с дверями. Интересно, а что там, за дверью?»</p>
@@ -249,11 +254,11 @@
                     <h3>О нас</h3>
                     <p>Ребёнок хрюкнул снова, и Алиса с большим беспокойством заглянула ему в лицо, желая узнать, что с ним такое.</p>
                     <h3>Свяжитесь с нами</h3>
-                    <a href="index.html"><img src="img/icons/fb.png" width="15px" alt="fb"></a>
-                    <a href="index.html"><img src="img/icons/twitter.png" width="15px" alt="twitter"></a>
-                    <a href="index.html"><img src="img/icons/Insta.png" width="15px" alt="insta"></a>
-                    <a href="index.html"><img src="img/icons/dribble.png" width="15px" alt="dribble"></a>
-                    <a href="index.html"><img src="img/icons/in.png" width="15px" alt="in"></a>
+                    <a id="fb" href="index.html"><img id="pic_fb" src="img/icons/fb.png" width="15px" alt="fb"></a>
+                    <a id="twitter" href="index.html"><img id="pic_twitter" src="img/icons/twitter.png" width="15px" alt="twitter"></a>
+                    <a id="insta" href="index.html"><img id="pic_insta" src="img/icons/Insta.png" width="15px" alt="insta"></a>
+                    <a id="dribble" href="index.html"><img id="pic_dribble" src="img/icons/dribble.png" width="15px" alt="dribble"></a>
+                    <a id="in" href="index.html"><img id="pic_in" src="img/icons/in.png" width="15px" alt="in"></a>
                 </div>
                 <div class="navigation">
                     <h3>Навигация по сайту</h3>
@@ -282,5 +287,7 @@
             </div>
         </footer>
     </main>
+    <script src="js/script.js"></script>
+    <script src="js/animation.js"></script>
 </body>
 </html>

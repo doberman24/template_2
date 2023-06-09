@@ -5,6 +5,7 @@ header {
 }
 
 nav {
+    opacity: 0;
     display: grid;
     width: 1150px;
     grid-template-columns: 2fr 810px 2fr;
@@ -46,11 +47,13 @@ nav {
 .sub_menu,
 .about_sub_menu {
     display: none;
+    /* opacity: 0; */
     position: absolute;
     background: #fff;
     padding-top: 20px;
     left: -15px;
-    top: 65px;
+    top: 90px;
+    /* top: 65px; */
     width: 180px;
     box-shadow: 0px 0px 10px #f0f0f0;
     z-index: 1;
@@ -58,12 +61,14 @@ nav {
 .sub_menu a {
     margin-left: 20px;
     margin-bottom: 20px;
+    /* background-color: antiquewhite; */
     display: block;
 }
-.top_menu:hover .sub_menu,
+/* .top_menu:hover .sub_menu,
 .about_menu:hover .about_sub_menu {
     display: block;
-}
+    opacity: 0;
+} */
 
 .about_sub_menu {
     left: 180px;
@@ -78,13 +83,19 @@ nav {
     display: inline-block;
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
-    margin-right: 30px;
-    margin-top: 33px;
-    margin-bottom: 33px;
+    padding: 33px 30px 18px 0;
+    margin-bottom: 15px;
+    /* padding-right: 30px;
+    padding-top: 33px;
+    padding-bottom: 33px; */
+}
+
+.top_menu {
+    background-color: antiquewhite;
 }
 .main_nav > a:hover,
 .top_menu > a:hover {
-    color: #000;
+    /* color: #000; */
 }
 .sub_menu a:hover {
     color: #e84545;
