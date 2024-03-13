@@ -1,13 +1,9 @@
 document.getElementById("top-menu").addEventListener("mouseover", function a_top() {
-    // document.getElementById("sub-menu").style.display = "block";
-    document.getElementById("sub-menu").style.cssText = "display: block; top: 65px; transition: 200ms;";
-    // document.getElementById("sub-menu").style.cssText = "opacity: 100%; top: 65px; transition: 200ms;";
+    document.getElementById("sub-menu").style.cssText = "display: block; top: 65px;";
     document.getElementById("a-top").style.cssText = "color: #000; transition: 200ms;";
 });
 document.getElementById("top-menu").addEventListener("mouseout", function sub_menu() {
-    // document.getElementById("sub-menu").style.display = "none";
     document.getElementById("sub-menu").style.cssText = "display: none; top: 90px;";
-    // document.getElementById("sub-menu").style.cssText = "opacity: 0%; top: 90px; transition: 200ms;";
     document.getElementById("a-top").style.cssText = "color: rgba(0, 0, 0, 0.7); transition: 200ms;";
 });
 document.getElementById("sub-menu").addEventListener("mouseover", function a_top () {
@@ -16,17 +12,6 @@ document.getElementById("sub-menu").addEventListener("mouseover", function a_top
         elem_sel.style.color = "black";
     }
 });
-
-// function sub_menu() {
-//     let elem_menu = document.getElementById("sub-menu");
-//     let elem_sel = document.getElementById("a-top");
-    
-//     elem_menu.style.top = "65px";
-
-// }
-
-
-
 
 document.getElementById("fb").addEventListener("mouseover", red_fb);
 document.getElementById("fb").addEventListener("mouseout", fb);
